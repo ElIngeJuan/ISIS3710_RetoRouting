@@ -26,9 +26,9 @@ export default function Detail() {
   return (
     <div className="container mt-4">
       <h1>{mascota.nombre}</h1>
-      <img src={mascota.foto} alt={mascota.descripcion} style={{ width: "300px", borderRadius: "10px" }} />
-      <p><strong>Raza:</strong> {mascota.raza}</p>
-      <p><strong>Descripción:</strong> {mascota.descripcion}</p>
+      <img src={mascota.foto} alt={mascota.descripcion} />
+      <p>{mascota.raza}</p>
+
     </div>
   );
 }
